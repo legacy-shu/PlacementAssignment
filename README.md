@@ -1,7 +1,7 @@
 ## Table of contents
 * [General info](#general-info)
-* [Database Design](#Database Design)
-* [Code snippets](#Code snippets)
+* [Database Design](#Database-Design)
+* [Code snippets](#Code-snippets)
 
 ## General info
 This project is embeded sqlite database.
