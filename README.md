@@ -82,18 +82,6 @@ public void GetMusicTracksReturnsAtleastOnetrackOrMore()
 }
 ```
 ```
-public void GetMusicTracksReturnsAtleastOnetrackOrMore()
-{
-    var db = new DB("./musiclibrary.db");
-    db.CreateTable();
-    db.InsertValue();
-
-    var musicLibrary = new MusicLibrary.Models.MusicLibrary();
-    var tracks = musicLibrary.GetMusicTracks();
-    Assert.True(tracks.Count() > 0);
-}
-```
-```
 public void GetMusicTracksReturnsTracksWithMatchingGenre()
 {
     var db = new DB("./musiclibrary.db");
