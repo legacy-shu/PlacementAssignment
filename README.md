@@ -31,7 +31,7 @@ $ dotnet run
 
 ## Code snippets
 SQL
-```sqlite
+```sql
 select a.artist, s.title, s.duration, s.issued_date, g.genre from track
 left join artist a on track.artist_id = a.artist_id
 left join song s on track.song_id = s.song_id
