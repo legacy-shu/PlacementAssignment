@@ -5,7 +5,7 @@
 
 ## General info
 This project is embeded sqlite database.
-When start demo project it will create tables and insert dummy data
+When start demo project it will create tables and insert dummy data.
 Futhermore, GetMusicTracks method in MusicLibrary class is tested
 When it download or clone than pleas move to MusicLibraryDemo/MusicLibrary folder
 in terminal and enter dotnet run
@@ -24,7 +24,7 @@ left join artist a on track.artist_id = a.artist_id
 left join song s on track.song_id = s.song_id
 left join genre g on track.genre_id = g.genre_id
 where issued_date > 2021
-order by artist, title"
+order by artist, title
 ```
 C# MusicLibrary
 ```
