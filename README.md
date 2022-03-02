@@ -9,13 +9,13 @@
 * The fields returned are include artist, title, duration, issued_date and genre.
 * The tracks returned are from the 2021 year.
 * The tracks returned are ordered by the artist and the title ascending.
-### Music Library
+### [Music Library](./MusicLibraryDemo/MusicLibrary/Models/MusicLibrary.cs)
 * GetMusicTracks method validates for zero duration tracks and it is filtered by a given genre.
-### Music Library Tests
+### [Music Library Tests](./MusicLibraryDemo/MusicLibraryTests/UnitTest1.cs)
 * When the GetMusicTracks method returns one or more tracks, then it is true. 
 * When a given genre is 'Pop' and the method returned 3 tracks, then it is true.
 * When the tracks include zero duration then it is false. 
-### Web Page
+### [Web Page](./MusicLibraryDemo/MusicLibrary/Views/Home/index.cshtml)
 * The html file is located in the "MusicLibraryDemo/MusicLibrary/Views/Home/index.cshtml"
 * Basically, it shows all tracks from the database and filtered data by the GetMusicTracks method.
 * Furthermore, it shows filtered by a given genre when your click links.
