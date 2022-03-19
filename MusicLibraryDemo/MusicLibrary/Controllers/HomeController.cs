@@ -3,7 +3,6 @@ using MusicLibrary.Models;
 
 public class HomeController : Controller
 {
-    // GET
     public IActionResult Index(string genre)
     {
         var musicLibrary = new MusicLibrary.Models.MusicLibrary();
